@@ -1,0 +1,26 @@
+.stApp { background: #081B33; color: #fff; }
+
+[data-testid="stMetric"], div[data-testid="metric-container"] {
+  background: #112B4A;
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid #2F5D9B;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+  transition: .3s;
+}
+[data-testid="stMetric"]:hover, div[data-testid="metric-container"]:hover {
+  transform: scale(1.02);
+}
+
+.stButton > button, .stDownloadButton > button {
+  background: #1D4ED8;
+  color: #fff;
+  border-radius: 12px;
+  font-size: 17px;
+  height: 45px;
+  font-weight: bold;
+  border: none;
+}
+.stButton > button:hover, .stDownloadButton > button:hover { background: #2563EB; color: #fff; }
+
+[data-testid="stSidebar"] { background: #06142A; }
